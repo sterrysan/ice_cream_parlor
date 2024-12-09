@@ -1,0 +1,176 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    background: linear-gradient(to top, #000000, #7a222e);
+    background-attachment: fixed;
+    background-size: cover;
+    display: flex;
+    justify-content: center;
+}
+
+.container {
+    display: flex;
+    flex-direction: column;
+    background-color: #facac5;
+    height: auto;
+    width: 1500px;
+    border-radius: 35px;
+    margin: 100px;
+    box-shadow: 20px 20px 60px #da05051f, -20px -20px 60px #0000004f;
+}
+
+.navbar {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 15px 30px;
+    border-radius: 35px 35px 0 0;
+    color: white;
+    font-weight: bold;
+    margin-top: 20px;
+    margin-left: 20px;
+    margin-right: 20px;
+}
+
+.navbar-left a {
+    margin-right: 20px;
+    text-decoration: none;
+    color: #995459;
+    font-family: PierSans;
+    font-size: 1.1rem;
+    margin-left: 35px;
+    
+}
+
+.navbar-left a:hover {
+    color: #d5777d;
+}
+@font-face {
+    font-family: 'Hunters';
+    src: url('./fonts/Hunters.otf') format('opentype');
+}
+@font-face {
+    font-family: 'PierSans';
+    src: url('./fonts/PierSans/PierSans-Black.otf') format('opentype');
+}
+
+.navbar-center span {
+    font-family: 'Hunters', sans-serif;
+    font-size: 50px;
+    color: #5c000c;
+    margin-left: -35px;
+}
+
+
+.navbar-right a {
+    margin-left: 20px;
+    text-decoration: none;
+    color: #995459;
+    font-family: PierSans;
+    font-size: 1.1rem;
+    margin-right: 35px;
+}
+
+.navbar-right a:hover {
+    color: #d5777d;
+}
+
+
+.banner {
+    margin: 20px;
+    text-align: center;
+}
+
+.banner img {
+    max-width: 100%;
+    
+}
+
+
+.flavor-section h2 {
+    text-align: center;
+    font-family:PierSans,sans-serif;
+    font-size: 2rem;
+    color: #5c000c;
+    margin-bottom: 30px;
+}
+
+.flavor-row {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin: 20px;
+    gap: 20px;
+}
+
+.flavor-row.reverse {
+    flex-direction: row-reverse;
+    
+}
+
+.flavcards {
+    background-color: white;
+    height: auto;
+    width: 250px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    border-radius: 20px;
+    box-shadow: 20px 20px 60px #da05051f, -20px -20px 60px #0000004f;
+    margin-left: 20px;
+    margin-right: 20px;
+    overflow: hidden;
+    text-align: center;
+}
+
+.flavcards img {
+    width: 100%;
+    height: auto;
+    border-radius: 20px 20px 0 0;
+}
+
+.flavor-content {
+    padding: 15px;
+}
+
+.flavor-content h3 {
+    font-size: 1.5rem;
+    color: #5c000c;
+    margin-bottom: 10px;
+    font-family: 'PierSans', sans-serif;
+}
+
+.flavor-content p {
+    font-size: 1rem;
+    color: #333;
+    margin-bottom: 10px;
+    font-family: Arial, sans-serif;
+}
+
+.favorite-btn {
+    background-color: #5c000c;
+    color: white;
+    border: none;
+    padding: 10px 20px;
+    border-radius: 10px;
+    cursor: pointer;
+    font-size: 0.9rem;
+}
+
+.favorite-btn:hover {
+    background-color: #7a222e;
+}
+
+.description{
+    font-size: 1rem;
+    color: #333;
+    background-color: white;
+    font-family: Arial, sans-serif;
+    border-radius: 20px;
+    height: 300px;
+    margin-right: 20px;
+}
